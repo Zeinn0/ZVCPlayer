@@ -54,7 +54,7 @@ async def start_vc(event):
         await zedub(
             functions.phone.CreateGroupCallRequest(
                 peer=vc_chat,
-                title="Zed VC",
+                title="Sezar VC",
             )
         )
         await edit_delete(event, "**- جـارِ بـدء محـادثـه صـوتيـه ...**")
